@@ -1,5 +1,5 @@
 ## About Me
-I enjoy data, technology, and whisky. The following are some personal projects that loosely follow that theme.
+I enjoy data, technology, and whisky. The following are some personal projects that loosely follow those themes.
 
 ## Whisky Investor | [link](https://whisky-invest.herokuapp.com/)  
 ![image](whisky.png)  
@@ -23,8 +23,7 @@ Daily bike counter data displayed on a web dashboard deployed using [PowerBI](ht
 - Custom columns and DAX measures to calculate month on month percentage change, reactive to filtered month
 
 Live Dashboard:
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9" frameborder="0"> </iframe>
-
+<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9" frameborder="0"> </iframe>  
 
 ## Stock Price Explorer | [link](https://dash-ticker.herokuapp.com/)
 ![image](stock.png)  
@@ -39,3 +38,8 @@ Web App project to display stock ticker information via [Dash by Plot.ly](https:
 - Dynamically updating table of stock prices
 
 ## Stock Price Modelling Using LinkedIn Dataset
+Series of Python Jupyter notebooks exploring the relationship between stock prices and LinkedIn employee count data, with the goal of either predicting changes in stock price using employee data or finding an indicator of future hiring patterns or layoffs based on the stock price. I attempted to predict future pricing using linear modelling techniques [scikit-learn](https://scikit-learn.org/stable/), and non-linear models using [PyTorch](https://pytorch.org/), however I couldn't find evidence of out performing a naive model that uses the prior day value to predict the stock price. The evidence from lagged cross correlation was inconclusive, and due to the large number of stocks used many of the correlations found may have been spurious.
+#### Notbooks:
+1. Data load and EDA | [link](https://nbviewer.jupyter.org/github/arms3/Jobs-Stock-Price_Prediction/blob/master/Data%20Load%20and%20EDA.ipynb) | Loading and viewing datasets, exploring time lagged cross correlation between stock price and number of employees listed on LinkedIn
+2. Linear modelling | [link](https://github.com/arms3/Jobs-Stock-Price_Prediction/blob/master/Modelling.ipynb) | Comparison of linear model prediction accuracy with and without LinkedIn dataset
+3. Neural Network modelling | [link](https://github.com/arms3/Jobs-Stock-Price_Prediction/blob/master/Modelling%20Neural%20Network.ipynb) | Experiments using a convolutional neural network model based on Google's WaveNet architecture to predict stock price
