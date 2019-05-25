@@ -1,6 +1,8 @@
 ## About Me
 I enjoy data, cycling, and whisky. The following are some personal projects that loosely follow those themes.
 
+---
+
 ## [Whisky Investor](https://whisky-invest.herokuapp.com/)  
 **Python** | **Dashboard** | **Web scraping**  
 
@@ -16,6 +18,8 @@ Dashboard to support investing in Scotch Whisky on [WhiskyInvestDirect.com](whis
 - Themed using Bootstrap
 - Dynamic cross-filtering of charts
 
+---
+
 ## [Bike Counter Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9)  
 **PowerBI** | **Dashboard**  
 
@@ -26,6 +30,8 @@ Daily bike counter data displayed on a web dashboard deployed using [PowerBI](ht
 - Importing web data using [PowerBI](https://powerbi.microsoft.com/en-us/) and OData feed ([source](https://data.seattle.gov/Transportation/Burke-Gilman-Trail-north-of-NE-70th-St-Bike-and-Pe/2z5v-ecg8))
 - Data aggregated by day and hour to show peak activity and trends
 - Custom columns and DAX measures to calculate month on month percentage change, reactive to filtered month
+
+---
 
 ## [Stock Price Explorer](https://dash-ticker.herokuapp.com/)
 **Python** | **Dashboard**  
@@ -40,6 +46,8 @@ Web App project to display stock ticker information via [Dash by Plot.ly](https:
 - Caching with expiry to Redis cache on Heroku to reduce the number of API calls (and stay within the 5 calls per minute API restriction)
 - Display multiple stocks in chart
 - Dynamically updating table of stock prices
+
+---
 
 ## [Stock Price Modelling Using LinkedIn Dataset](https://github.com/arms3/Jobs-Stock-Price_Prediction)  
 **Python** | **Machine Learning** | **Deep Learning**  
