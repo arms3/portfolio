@@ -33,6 +33,21 @@ Daily bike counter data displayed on a web dashboard deployed using [PowerBI](ht
 
 ---
 
+## [Stock Price Modelling Using LinkedIn Dataset](https://github.com/arms3/Jobs-Stock-Price_Prediction)  
+**Python** | **Machine Learning** | **Deep Learning**  
+
+![image](link.png)  
+Series of Python Jupyter notebooks exploring the relationship between stock prices and LinkedIn employee count data, with the goal of either predicting changes in stock price using employee data or finding an indicator of future hiring patterns or layoffs based on the stock price.
+
+The notebooks attempt to predict future pricing using linear modelling techniques [scikit-learn](https://scikit-learn.org/stable/), and non-linear models using [PyTorch](https://pytorch.org/), however no evidence of improvement over a naïve model (using the previous day value to predict the stock price) was found. The evidence from lagged cross correlation was also inconclusive, and due to the large number of stocks used many of the correlations found may have been spurious.
+
+#### Notbooks:
+1. [Data load and EDA](https://nbviewer.jupyter.org/github/arms3/Jobs-Stock-Price_Prediction/blob/master/Data%20Load%20and%20EDA.ipynb) | Loading and viewing datasets, exploring time lagged cross correlation between stock price and number of employees listed on LinkedIn
+2. [Linear modelling](https://github.com/arms3/Jobs-Stock-Price_Prediction/blob/master/Modelling.ipynb) | Comparison of linear model prediction accuracy with and without LinkedIn dataset
+3. [Neural Network modelling](https://github.com/arms3/Jobs-Stock-Price_Prediction/blob/master/Modelling%20Neural%20Network.ipynb) | Experiments using a convolutional neural network model based on Google's WaveNet architecture to predict stock price
+
+---
+
 ## [Stock Price Explorer](https://dash-ticker.herokuapp.com/)
 **Python** | **Dashboard**  
 
@@ -46,16 +61,3 @@ Web App project to display stock ticker information via [Dash by Plot.ly](https:
 - Caching with expiry to Redis cache on Heroku to reduce the number of API calls (and stay within the 5 calls per minute API restriction)
 - Display multiple stocks in chart
 - Dynamically updating table of stock prices
-
----
-
-## [Stock Price Modelling Using LinkedIn Dataset](https://github.com/arms3/Jobs-Stock-Price_Prediction)  
-**Python** | **Machine Learning** | **Deep Learning**  
-
-Series of Python Jupyter notebooks exploring the relationship between stock prices and LinkedIn employee count data, with the goal of either predicting changes in stock price using employee data or finding an indicator of future hiring patterns or layoffs based on the stock price.
-
-The notebooks attempt to predict future pricing using linear modelling techniques [scikit-learn](https://scikit-learn.org/stable/), and non-linear models using [PyTorch](https://pytorch.org/), however no evidence of improvement over a naïve model (using the previous day value to predict the stock price) was found. The evidence from lagged cross correlation was also inconclusive, and due to the large number of stocks used many of the correlations found may have been spurious.
-#### Notbooks:
-1. [Data load and EDA](https://nbviewer.jupyter.org/github/arms3/Jobs-Stock-Price_Prediction/blob/master/Data%20Load%20and%20EDA.ipynb) | Loading and viewing datasets, exploring time lagged cross correlation between stock price and number of employees listed on LinkedIn
-2. [Linear modelling](https://github.com/arms3/Jobs-Stock-Price_Prediction/blob/master/Modelling.ipynb) | Comparison of linear model prediction accuracy with and without LinkedIn dataset
-3. [Neural Network modelling](https://github.com/arms3/Jobs-Stock-Price_Prediction/blob/master/Modelling%20Neural%20Network.ipynb) | Experiments using a convolutional neural network model based on Google's WaveNet architecture to predict stock price
