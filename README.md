@@ -1,7 +1,7 @@
 ## About Me
 I enjoy data, cycling, and whisky. The following are some personal projects that loosely follow those themes.
 
-## Whisky Investor | [link](https://whisky-invest.herokuapp.com/)  
+## [Whisky Investor](https://whisky-invest.herokuapp.com/)  
 ![image](whisky.png)  
 Dashboard to support investing in Scotch Whisky on [WhiskyInvestDirect.com](whiskyinvestdirect.com). Shows the top current investment opportunities, and a detailed pricing analysis.
 
@@ -14,7 +14,7 @@ Dashboard to support investing in Scotch Whisky on [WhiskyInvestDirect.com](whis
 - Themed using Bootstrap
 - Dynamic cross-filtering of charts
 
-## Bike Counter Dashboard | [link](https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9)  
+## [Bike Counter Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9)  
 <iframe width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9" frameborder="0"> </iframe>  
 Daily bike counter data displayed on a web dashboard deployed using [PowerBI](https://powerbi.microsoft.com/en-us/), using public [OData](https://en.wikipedia.org/wiki/Open_Data_Protocol) feed updated monthly.
 
@@ -23,7 +23,7 @@ Daily bike counter data displayed on a web dashboard deployed using [PowerBI](ht
 - Data aggregated by day and hour to show peak activity and trends
 - Custom columns and DAX measures to calculate month on month percentage change, reactive to filtered month
 
-## Stock Price Explorer | [link](https://dash-ticker.herokuapp.com/)
+## [Stock Price Explorer](https://dash-ticker.herokuapp.com/)
 ![image](stock.png)  
 Web App project to display stock ticker information via [Dash by Plot.ly](https://dash.plot.ly/getting-started).
 
@@ -35,7 +35,7 @@ Web App project to display stock ticker information via [Dash by Plot.ly](https:
 - Display multiple stocks in chart
 - Dynamically updating table of stock prices
 
-## Stock Price Modelling Using LinkedIn Dataset | [link](https://github.com/arms3/Jobs-Stock-Price_Prediction)
+## [Stock Price Modelling Using LinkedIn Dataset](https://github.com/arms3/Jobs-Stock-Price_Prediction)
 Series of Python Jupyter notebooks exploring the relationship between stock prices and LinkedIn employee count data, with the goal of either predicting changes in stock price using employee data or finding an indicator of future hiring patterns or layoffs based on the stock price.
 
 The notebooks attempt to predict future pricing using linear modelling techniques [scikit-learn](https://scikit-learn.org/stable/), and non-linear models using [PyTorch](https://pytorch.org/), however no evidence of improvement over a naïve model (using the previous day value to predict the stock price) was found. The evidence from lagged cross correlation was also inconclusive, and due to the large number of stocks used many of the correlations found may have been spurious.
