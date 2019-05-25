@@ -3,7 +3,7 @@ title: "Angus Sinclair"
 name: "Angus Sinclair"
 author: "Angus Sinclair"
 author_image: "/assets/images/author.jpg"
-logo: ./icon.svg
+logo: icon.svg
 url: "https://arms3.github.io" # the base hostname & protocol for your site
 baseurl: /portfolio
 google_analytics: UA-140813877-1
