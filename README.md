@@ -3,8 +3,8 @@
 Lorem Ipsum doler.
 
 ## Projects
-### Whisky Investor
-[link](https://whisky-invest.herokuapp.com/)  
+### Whisky Investor | [link](https://whisky-invest.herokuapp.com/)  
+![image](whisky.png)
 Dashboard to support investing in Scotch Whisky on [WhiskyInvestDirect.com](whiskyinvestdirect.com). Shows the top current investment opportunities, and a detailed pricing analysis.
 
 Technology and features:
@@ -16,14 +16,13 @@ Technology and features:
 - Themed using Bootstrap
 - Dynamic cross-filtering of charts
 
-### Bike Counter Dashboard
-[link](https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9)  
-Daily bike counter data displayed on a web dashboard deployed using PowerBI, using public oData feed updated monthly.
-
-
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9" frameborder="0"> </iframe>
+### Bike Counter Dashboard | [link](https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9)  
+Daily bike counter data displayed on a web dashboard deployed using PowerBI, using public oData feed updated
 
 Technology and features:
 - Importing web data using PowerBI and oData feed ([source](https://data.seattle.gov/Transportation/Burke-Gilman-Trail-north-of-NE-70th-St-Bike-and-Pe/2z5v-ecg8))
 - Data aggregated by day and hour to show peak activity and trends
-- Custom columns and DAX measures to calculate month on month percentage change
+- Custom columns and DAX measures to calculate month on month percentage change monthly.
+<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9" frameborder="0"> </iframe>
+
+###

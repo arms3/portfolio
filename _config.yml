@@ -1,1 +1,7 @@
 theme: jekyll-theme-minimal
+title: "Angus Sinclair"
+name: "Angus Sinclair"
+author: "Angus Sinclair"
+author_image: "/assets/images/author.jpg"
+url: "https://arms3.github.io" # the base hostname & protocol for your site
+baseurl: /portfolio
