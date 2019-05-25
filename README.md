@@ -15,7 +15,7 @@ Dashboard to support investing in Scotch Whisky on [WhiskyInvestDirect.com](whis
 - Dynamic cross-filtering of charts
 
 ## Bike Counter Dashboard | [link](https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9)  
-<iframe width="700" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9" frameborder="0"> </iframe>  
+<iframe width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9" frameborder="0"> </iframe>  
 Daily bike counter data displayed on a web dashboard deployed using [PowerBI](https://powerbi.microsoft.com/en-us/), using public [OData](https://en.wikipedia.org/wiki/Open_Data_Protocol) feed updated monthly.
 
 #### Technology and features:
