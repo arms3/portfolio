@@ -21,10 +21,9 @@ Daily bike counter data displayed on a web dashboard deployed using [PowerBI](ht
 - Importing web data using [PowerBI](https://powerbi.microsoft.com/en-us/) and OData feed ([source](https://data.seattle.gov/Transportation/Burke-Gilman-Trail-north-of-NE-70th-St-Bike-and-Pe/2z5v-ecg8))
 - Data aggregated by day and hour to show peak activity and trends
 - Custom columns and DAX measures to calculate month on month percentage change, reactive to filtered month
-
-Live Dashboard:
 <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9" frameborder="0"> </iframe>  
 
+  
 ## Stock Price Explorer | [link](https://dash-ticker.herokuapp.com/)
 ![image](stock.png)  
 Web App project to display stock ticker information via [Dash by Plot.ly](https://dash.plot.ly/getting-started).
