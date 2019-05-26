@@ -4,7 +4,7 @@ I enjoy data, cycling, and whisky. The following are some personal projects that
 ---
 
 ## [Whisky Investor](https://whisky-invest.herokuapp.com/)  
-**Python** | **Dashboard** | **Web scraping**  
+**Python** | **Machine Learning** | **Dashboard** | **Web scraping** | **AWS**
 
 ![image](whisky.png)  
 Dashboard to support investing in Scotch Whisky on [WhiskyInvestDirect.com](whiskyinvestdirect.com). Shows the top current investment opportunities, and a detailed pricing analysis.
