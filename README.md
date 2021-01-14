@@ -20,6 +20,12 @@ Dashboard to support investing in Scotch Whisky on [WhiskyInvestDirect.com](whis
 
 ---
 
+## [Conference Scheduling: A Mixed Integer Programming solution](https://github.com/arms3/ConferenceScheduling)  
+**Python** | **Mixed Integer Programming** | **Scheduling**  
+
+
+---
+
 ## [Bike Counter Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNGQyMzYzMTQtOTQzMi00ZDc2LWEzYTktNTlmYmFiMmExMDE4IiwidCI6ImExMDc1MmQ2LTI4NjEtNDEwMy1iNmM4LTg4YTUxMjAxOTI4MiIsImMiOjJ9)  
 **PowerBI** | **Dashboard**  
 
