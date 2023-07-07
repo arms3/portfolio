@@ -4,7 +4,7 @@ I enjoy data, cycling, and whisky. The following are some personal projects that
 
 ---
 
-## [Whisky Investor](https://whisky-invest.herokuapp.com/)  
+## [Whisky Investor](https://whiskyinvest.onrender.com/)  
 
 **Python** | **Machine Learning** | **Dashboard** | **Web scraping** | **AWS**
 
